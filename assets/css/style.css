@@ -1,0 +1,45 @@
+/* remove default browser-enforced styles to level out the playing field */
+/* tells every element not to have margin or padding unless we explicitly tell it to */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+header h1 {
+    font-weight: bold; /* lighter, normal, bold, etc. */
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none; /* underline, strikethrough, overline */
+    color: #fce138;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0px;
+}
+
+/* select all <li> elements inside a <ul> element inside a <nav> element inside a <header> element */
+header nav ul li {
+    display: inline; /* change from default block list to inline list */
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
