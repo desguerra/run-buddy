@@ -12,5 +12,3 @@ View full Run Buddy website [here](https://desguerra.github.io/run-buddy/)!
 
 ## Contribution
 Made with ❤️ by [Nikki Esguerra](https://desguerra.github.io/)
-
-
