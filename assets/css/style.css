@@ -35,15 +35,18 @@ header nav {
     margin: 7px 0px;
 }
 
-/* select all <li> elements inside a <ul> element inside a <nav> element inside a <header> element */
-header nav ul li {
-    display: inline; /* change from default block list to inline list */
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 
 footer {
